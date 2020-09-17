@@ -10,9 +10,9 @@ This is a coding challenge that will test your creative and critical thinking, a
 Create a simple web-scraper that takes in a list of companies and extracts the abstracts from https://pubmed.ncbi.nlm.nih.gov/advanced/ using [BeautifulSoup](https://programminghistorian.org/en/lessons/intro-to-beautiful-soup) and/or [Selenium](https://www.geeksforgeeks.org/selenium-python-tutorial/). 
 
 company_list:
-1 Obatala Sciences
-2 23andMe
-3 Bellbrook Labs
+1 Obatala Sciences \n
+2 23andMe \n
+3 Bellbrook Labs \n
 
 Basically, you need to input '"Obatala Sciences"[Affiliation]' into the query box, and search. That will bring you to list link: https://pubmed.ncbi.nlm.nih.gov/?term=%22obatala+sciences%22%5BAffiliation%5D&sort=. From there, click the first paper link and extract the abstract text from it. You only need the first one.
 
