@@ -9,7 +9,7 @@ This is a coding challenge that will test your creative and critical thinking, a
 ### Overview ###
 Create a simple web-scraper that takes in a list of companies and extracts the abstracts from https://pubmed.ncbi.nlm.nih.gov/advanced/ using [BeautifulSoup](https://programminghistorian.org/en/lessons/intro-to-beautiful-soup) and/or [Selenium](https://www.geeksforgeeks.org/selenium-python-tutorial/). 
 
-company_list:
+company_list: <br>
 1 Obatala Sciences <br>
 2 23andMe <br>
 3 Bellbrook Labs 
