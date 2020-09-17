@@ -7,9 +7,16 @@ This is a coding challenge that will test your creative and critical thinking, a
 
 
 ### Overview ###
-Create a simple web-scraper that extracts some list of text(keywords, titles, articles, etc.) from some website using [BeautifulSoup](https://programminghistorian.org/en/lessons/intro-to-beautiful-soup) or [Selenium](https://www.geeksforgeeks.org/selenium-python-tutorial/). If you are new or inexperienced with python, you can also use [webscraper.io](https://webscraper.io/). Websites can be literally anything, from google, facebook, linkedin, etc. Text can be literally anything you want - just needs enough substance to be able to do the stuff in the second paragraph below.
+Create a simple web-scraper that takes in a list of companies and extracts the abstracts from https://pubmed.ncbi.nlm.nih.gov/advanced/ using [BeautifulSoup](https://programminghistorian.org/en/lessons/intro-to-beautiful-soup) and/or [Selenium](https://www.geeksforgeeks.org/selenium-python-tutorial/). 
 
-Once you've scraped some information, I'd like you to perform some data analysis of that list. It can be anything, from simple EDA like mapping word counts to some kind of graph or word map to something more complicated like applying NLP and machine learning models to the set. This is an opportunity to be creative - ask yourself, what's an interesting way to look at this information, or what's some potentially useful information I can get from this data that maybe is not immediately obvious? If you are having trouble picking something, one thing we're interested in is finding similarity between texts. 
+company_list:
+1 Obatala Sciences
+2 23andMe
+3 Bellbrook Labs
+
+Basically, you need to input '"Obatala Sciences"[Affiliation]' into the query box, and search. That will bring you to list link: https://pubmed.ncbi.nlm.nih.gov/?term=%22obatala+sciences%22%5BAffiliation%5D&sort=. From there, click the first paper link and extract the abstract text from it. You only need the first one.
+
+Once you've scraped the information, I'd like you to perform some data analysis of that abstract text. It can be anything, from simple EDA like mapping word counts to some kind of graph or word map to something more complicated like applying NLP and machine learning models to the set. This is an opportunity to be creative - ask yourself, what's an interesting way to look at this information, or what's some potentially useful information I can get from this data that maybe is not immediately obvious? If you are having trouble picking something, one thing we're interested in is finding similarity between texts. 
 
 
 ### How to Submit Project: ###
