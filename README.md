@@ -14,7 +14,7 @@ company_list: <br>
 2 23andMe <br>
 3 Bellbrook Labs 
 
-Basically, you need to input '"Obatala Sciences"[Affiliation]' into the query box, and search. That will bring you to list link: https://pubmed.ncbi.nlm.nih.gov/?term=%22obatala+sciences%22%5BAffiliation%5D&sort=. From there, click the first paper link and extract the abstract text from it. You only need the first one.
+Basically, you need to input '"Obatala Sciences"[Affiliation]' into the query box, and search(the "Affiliation" species pubmed to only search the affiliates instead of everything. Double quotes around the company name ensures that the whole phrase is searched as a boolean. That search will bring you to list link: https://pubmed.ncbi.nlm.nih.gov/?term=%22obatala+sciences%22%5BAffiliation%5D&sort=. From there, click the first paper link and extract the abstract text from it. You only need the first one.
 
 Once you've scraped the information, I'd like you to perform some data analysis of that abstract text. It can be anything, from simple EDA like mapping word counts to some kind of graph or word map to something more complicated like applying NLP and machine learning models to the set. This is an opportunity to be creative - ask yourself, what's an interesting way to look at this information, or what's some potentially useful information I can get from this data that maybe is not immediately obvious? If you are having trouble picking something, one thing we're interested in is finding similarity between texts. 
 
